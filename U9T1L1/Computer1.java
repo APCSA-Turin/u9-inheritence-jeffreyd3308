@@ -1,7 +1,7 @@
-public class Computer extends Device {
+public class Computer1 extends Device {
     private boolean touchscreen;
 
-    public Computer(String name, int storage, boolean touchscreen) {
+    public Computer1(String name, int storage, boolean touchscreen) {
         super(name, storage);
         this.touchscreen = touchscreen;
     }

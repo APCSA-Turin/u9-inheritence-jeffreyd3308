@@ -15,7 +15,7 @@ public class DeviceRunner {
         myPhone.call();
         myPhone.text();
 
-        Computer myComputer = new Computer("windows11", 128, false);
+        Computer1 myComputer = new Computer1("windows11", 128, false);
         System.out.println(myComputer.getName());
         System.out.println(myComputer.getStorage());
         System.out.println(myComputer.isTouchScreen());
