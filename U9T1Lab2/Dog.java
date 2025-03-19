@@ -1,3 +1,5 @@
+
+
 public class Dog extends Animal {
     private boolean hasBeenWalked;
     private int walkingAmount;

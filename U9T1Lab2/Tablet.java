@@ -1,3 +1,5 @@
+
+
 public class Tablet extends Computer {
     private boolean stylusIncluded;
 
