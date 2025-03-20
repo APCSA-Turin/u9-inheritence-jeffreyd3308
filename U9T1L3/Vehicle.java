@@ -35,4 +35,14 @@ public class Vehicle {
     public double calculateTollPrice() {
       return tollFee * passengers;
     }
+
+    public void printInfo() {
+      System.out.println("License plate: " + licensePlate);
+      System.out.println("Toll fee: " + tollFee);
+      System.out.println("Passengers: " + passengers);
+    }
+
+    public void paintVehicle() {
+      System.out.println("Vehicle painted");
+    }
 }
